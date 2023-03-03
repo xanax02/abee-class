@@ -1,0 +1,184 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: #333;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+header {
+    background: #1b1b1b;
+    padding: 20px;
+    color: #f8f8f8;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.create-link-container {
+    padding: 20px 0 0;
+}
+.create-link {
+   margin: 0 0 0 20px;
+
+   text-decoration: underline;
+}
+#all-contents {
+    padding: 80px 0;
+}
+#all-contents .inside {
+    padding: 20px 0 0 50px;
+    width: 100%;
+}
+#all-contents .title {
+    margin: 0 0 5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #f8f8f8;
+
+}
+
+#all-contents .description {
+    
+    font-size: 1.3rem;
+    padding: 0 0 20px;
+}
+
+#all-contents .btn-container {
+    width: 100%;
+    padding: 0 0 10px 
+ 
+ }
+#all-contents .btn {
+    
+   padding: 10px 15px;
+   color: white;
+   background: lightblue;
+}
+
+
+#all-contents  .hr {
+    opacity: .5;
+   background: #f8f8f8;
+   padding: 1px;
+   width: 100%;
+   margin: 10px 0;
+   position: absolute;
+   left: 0;
+   right: 0;
+}
+#all-contents  img {
+  width: 300px;
+  height: 200px;
+}
+
+#show .title{
+    font-size: 1.8rem;
+    color: #f8f8f8;
+    margin: 0 0 5px;
+    text-transform: capitalize;
+}
+#show .inside {
+    padding: 50px 0 0 0;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#show img {
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+
+
+#create .heading {
+    width: 100%;
+    text-align: center ;
+    padding: 15px 0;
+}
+
+#create .inside {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+#create input {
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+#create  .btn{
+   
+
+}
+
+#create  .btn-container {
+width: 100%;
+display: block ;
+ text-align: center;
+
+}
+
+#create  .btn-container  button{
+    margin: 20px 0 0 0;
+    background: dodgerblue;
+    padding: 20px 30px;
+    border-radius: 3px;
+    color: ghostwhite;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    
+    
+ }
+
+
+footer {
+    padding: 50px;
+    background: #1b1b1b;
+    color: white;
+    
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+text-align: center;
+}
+
+
+.show-btn {
+    padding: 50px 0 0;
+   
+}
+.edit-btn {
+    background: orange;
+    padding: 10px;;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+}

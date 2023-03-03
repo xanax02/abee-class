@@ -1,0 +1,35 @@
+<%- include('partials/header.ejs') %>
+
+<div class="create-link-container">
+    <a  class="create-link" href="/create"> Create New Tweet</a>
+</div>
+
+<div class="create-link-container">
+    <a  class="create-link" href="/find">Find my Tweet</a>
+</div>
+
+<% results.forEach((result)=>{ %>
+
+
+    <section id="all-contents">
+    <div class="inside">
+        <div class="title"><%= result.title %></div>
+        <span></span>
+        <p class="description">Created:<%= result.timeSaved %></p>
+        <p class="description">Created By:<%= result.createdUser %></p>
+        <div class="btn-container">
+            <a class="btn" href="/api/items/<%= result.id %>" > Show Tweet</a>
+        </div>
+        
+        <div class="hr"></div>
+    </div>
+
+
+</section>
+<% }) %>
+
+
+
+
+
+<%- include('partials/footer.ejs') %>
